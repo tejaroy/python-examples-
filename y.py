@@ -1,5 +1,5 @@
 
-'''
+
 #list
 a=[1211,'teja','yanagala',13]
 print(a[1])
@@ -1266,11 +1266,11 @@ print(f.read())
 s=(100,200,300)
 print('{0}'.format(s))
 
-'''
-'''=============================================================================================================================================================================================
+
+=============================================================================================================================================================================================
                                 ||mysql||
-============================================================================================================================================================================================'''
-'''
+============================================================================================================================================================================================
+
 #importing mysql and connecting to the python
 import mysql.connector
 mydb=mysql.connector.connect(
@@ -1321,7 +1321,7 @@ for i in range(i,len(l)):
             l[j]=temp
 print(l)
 
-'''
+
 class Create(object):
     bal=1000
     def __init__(self,acc,name='teaj'):
@@ -1344,7 +1344,7 @@ class Withdraw(Deposit):
 
 
 
-'''
+
 
 class Teache
     def __init__(self,name,age,id_no):
@@ -1378,26 +1378,69 @@ def day(x,y,z):
     print(e)
 z=day(2000,1,29)
 
-'''
 
 
 
+                 
+#smallest number among list
+l=[10,5,4,2,11,13,17,14,12,8,7,19,27,552,20]
+i=0
+for i in range(i,len(l)):
+    #print(i)
+    for j in range(i+1,len(l)):
+        if (l[i]<l[j]):
+            z=l[i]
+            l[i]=l[j]
+            l[j]=z
+print(z)
+    
+   o/p:2
+    
+#lastest number among list
+l=[10,5,4,2,11,13,17,14,12,8,7,19,27,552,20]
+i=0
+for i in range(i,len(l)):
+    #print(i)
+    for j in range(i+1,len(l)):
+        if (l[i]>l[j]):
+            z=l[i]
+            l[i]=l[j]
+            l[j]=z
+print(z)
+    
+    o/p:552
 
 
+#ascending order
+l=[10,5,4,2,11,13,17,14,12,8,7,19,27,552,20]
+i=0
+for i in range(i,len(l)):
+    #print(i)
+    for j in range(i+1,len(l)):
+        if (l[i]>l[j]):
+            z=l[i]
+            l[i]=l[j]
+            l[j]=z
+print(l)
+
+o/p:[2, 4, 5, 7, 8, 10, 11, 12, 13, 14, 17, 19, 20, 27, 552]
+
+    
 
 
+#decendind order
+l=[10,5,4,2,11,13,17,14,12,8,7,19,27,552,20]
+i=0
+for i in range(i,len(l)):
+    #print(i)
+    for j in range(i+1,len(l)):
+        if (l[i]<l[j]):
+            z=l[i]
+            l[i]=l[j]
+            l[j]=z
+print(l)
 
-
-
-
-
-class ShareOrder:
-    def __init__(self,id,sharelist,price,Modeof payment
-
-
-
-
-
+o/p:[552, 27, 20, 19, 17, 14, 13, 12, 11, 10, 8, 7, 5, 4, 2]
 
 
 
